@@ -61,6 +61,7 @@ header h4 {
 /* ---------- Jumbotron ---------- */
 .jumbotron {
     background-color: var(--jumbotron-green);
+    text-align: center;
     /* debug */
     min-height: 350px;
 }
@@ -78,4 +79,13 @@ header h4 {
     .ms_jumbo-container {
         width: 50%;
     }
+}
+
+/* ---------- Portfolio section ---------- */
+.portfolio {
+    text-align: center;
+}
+
+.ms_card img {
+    border-radius: 10px;
 }
