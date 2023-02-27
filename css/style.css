@@ -1,6 +1,7 @@
 /* VARIABLES */
 :root {
     --header-blue: #2c3e50;
+    --jumbotron-green: #1abc9c;
 }
 
 /* RESET */
@@ -9,6 +10,7 @@ img {
 }
 
 /* ********** HEADER ********** */
+
 header {
     background-color: var(--header-blue);
     height: 80px;
@@ -52,4 +54,28 @@ header h4 {
     color: grey;
     padding: 0 10px;
     font-size: 1.2rem;
+}
+
+/* ********** MAIN ********** */
+
+/* ---------- Jumbotron ---------- */
+.jumbotron {
+    background-color: var(--jumbotron-green);
+    /* debug */
+    min-height: 350px;
+}
+
+.ms_jumbo-container {
+    width: 90%;
+    margin: 0 auto;
+    /* debug */
+    min-height: 350px;
+    background-color: brown;
+}
+
+/* Tablet layout and desktop */
+@media screen and (min-width: 768px) {
+    .ms_jumbo-container {
+        width: 50%;
+    }
 }
