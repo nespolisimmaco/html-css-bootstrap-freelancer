@@ -9,15 +9,45 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ********** GENERAL ********** */
+body {
+    color: white;
+}
+
+/* Button */
+.btn {
+    color: white;
+}
+
+/* Star between two borders */
+.star {
+    margin-bottom: 1rem;
+}
+
+.star .ms_border {
+    height: 5px;
+    width: 15%;
+    border-radius: 5px;
+}
+
+.white-border {
+    background-color: white;
+}
+
+.blue-border {
+    background-color: var(--header-blue);
+}
+
 /* ********** HEADER ********** */
 
 header {
     background-color: var(--header-blue);
     height: 80px;
-}
-
-header h4 {
-    color: white;
 }
 
 /* start debug */
@@ -41,11 +71,6 @@ header h4 {
     margin-left: 1rem;
 }
 
-.header-links a {
-    color: inherit;
-    text-decoration: none;
-}
-
 /* Header Hamburger menu */
 .hamburger-menu button {
     background-color: transparent;
@@ -61,20 +86,19 @@ header h4 {
 /* ---------- Jumbotron ---------- */
 .jumbotron {
     background-color: var(--jumbotron-green);
-    text-align: center;
     /* debug */
     min-height: 350px;
 }
 
 .ms_jumbo-container {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     /* debug */
     min-height: 350px;
     background-color: brown;
 }
 
-/* Tablet layout and desktop */
+/* * Tablet layout and desktop * */
 @media screen and (min-width: 768px) {
     .ms_jumbo-container {
         width: 50%;
@@ -83,9 +107,38 @@ header h4 {
 
 /* ---------- Portfolio section ---------- */
 .portfolio {
-    text-align: center;
+    padding: 3rem 0;
+    color: var(--header-blue);
 }
 
 .ms_card img {
     border-radius: 10px;
+}
+
+/* ---------- About section ---------- */
+.about {
+    background-color: var(--jumbotron-green);
+    color: white;
+    padding: 2rem 0 1rem;
+}
+
+.ms_container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.button .btn {
+    border: 1px solid white;
+    margin-top: 1.5rem;
+}
+
+/* * Tablet and desktop layout * */
+@media screen and (min-width: 768px) {
+    .about {
+        padding: 4rem 1.5rem;
+    }
+
+    .about h5 {
+        font-size: 2.5rem;
+    }
 }
