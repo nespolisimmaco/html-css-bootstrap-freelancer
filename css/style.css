@@ -2,6 +2,7 @@
 :root {
     --header-blue: #2c3e50;
     --jumbotron-green: #1abc9c;
+    --footer-top: #3a546d;
 }
 
 /* RESET */
@@ -165,4 +166,23 @@ header {
     .contact-me h5 {
         font-size: 2.5rem;
     }
+}
+
+/* ********** HEADER ********** */
+.footer-top {
+    background-color: var(--footer-top);
+    padding: 2rem 0;
+}
+
+.footer-top .ms_card {
+    background-color: lightcoral;
+}
+
+#green-link {
+    color: var(--jumbotron-green);
+}
+
+.footer-bottom {
+    background-color: var(--header-blue);
+    padding: 2rem 0 3rem;
 }
