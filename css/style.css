@@ -125,6 +125,8 @@ header {
 .ms_container {
     width: 60%;
     margin: 0 auto;
+    /* debug */
+    background-color: seagreen;
 }
 
 .button .btn {
@@ -139,6 +141,28 @@ header {
     }
 
     .about h5 {
+        font-size: 2.5rem;
+    }
+}
+
+/* ---------- Contact me section ---------- */
+.contact-me {
+    color: var(--header-blue);
+    padding: 2rem 0 1rem;
+}
+
+.contact-me .ms_container {
+    /* debug */
+    min-height: 300px;
+}
+
+/* * Tablet and desktop layout * */
+@media screen and (min-width: 768px) {
+    .contact-me {
+        padding: 4rem 1.5rem;
+    }
+
+    .contact-me h5 {
         font-size: 2.5rem;
     }
 }
