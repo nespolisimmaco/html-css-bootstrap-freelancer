@@ -1,4 +1,55 @@
+/* VARIABLES */
+:root {
+    --header-blue: #2c3e50;
+}
+
 /* RESET */
 img {
     max-width: 100%;
+}
+
+/* ********** HEADER ********** */
+header {
+    background-color: var(--header-blue);
+    height: 80px;
+}
+
+header h4 {
+    color: white;
+}
+
+/* start debug */
+.col-10, .col-md-7 {
+    /* debug */
+    background-color: antiquewhite;
+}
+
+.col-2, .col-md-5 {
+    /* debug */
+    background-color: aquamarine;
+}
+/* end debug */
+
+/* Header links */
+.header-links {
+    list-style-type: none;
+}
+
+.header-links li {
+    margin-left: 1rem;
+}
+
+.header-links a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Header Hamburger menu */
+.hamburger-menu button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: grey;
+    padding: 0 10px;
+    font-size: 1.2rem;
 }
