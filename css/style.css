@@ -10,14 +10,18 @@ img {
     max-width: 100%;
 }
 
+/* ********** GENERAL ********** */
+body {
+    color: white;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
-/* ********** GENERAL ********** */
-body {
-    color: white;
+li {
+    list-style-type: none;
 }
 
 /* Button */
@@ -157,20 +161,30 @@ body {
     }
 }
 
-/* ********** HEADER ********** */
+/* ********** FOOTER ********** */
+/* Footer top */
 .ms_footer-top {
     background-color: var(--footer-top);
     padding: 2rem 0;
 }
 
-.footer-top .ms_card {
-    background-color: lightcoral;
+.socials-links ul {
+    padding-left: 0;
+    gap: 10px;
+}
+
+.socials-links a {
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
 }
 
 #green-link {
     color: var(--jumbotron-green);
 }
 
+/* Footer bottom */
 .ms_footer-bottom {
     background-color: var(--header-blue);
     padding: 2rem 0 3rem;
