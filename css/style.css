@@ -49,29 +49,28 @@ li {
 }
 
 /* ********** HEADER ********** */
-
-.ms_header {
+header {
     background-color: var(--header-blue);
-    height: 80px;
+    color: white;
 }
 
-/* Header links */
-.ms_header-links {
-    list-style-type: none;
-}
-
-.ms_header-links li {
-    margin-left: 1rem;
+.navbar-brand {
+    color: white;
 }
 
 /* Header Hamburger menu */
-.hamburger-menu button {
-    background-color: transparent;
+.navbar-toggler {
     border: 1px solid white;
-    border-radius: 5px;
+}
+
+.navbar-toggler span {
+    padding-top: 6px;
+}
+
+.navbar-toggler-icon {
+    background-image: none;
     color: grey;
-    padding: 0 10px;
-    font-size: 1.2rem;
+    font-size: 1.5em;
 }
 
 /* ********** MAIN ********** */
