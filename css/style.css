@@ -25,7 +25,7 @@ li {
 }
 
 /* Button */
-.btn {
+.ms_btn {
     color: white;
 }
 
@@ -118,11 +118,9 @@ header {
     width: 60%;
     margin: 0 auto;
     max-width: 720px;
-    /* debug */
-    background-color: cadetblue;
 }
 
-.button .btn {
+.button .ms_btn {
     border: 1px solid white;
     margin-top: 1.5rem;
 }
@@ -144,9 +142,16 @@ header {
     padding: 2rem 0 1rem;
 }
 
-.contact-me .ms_container {
-    /* debug */
-    min-height: 300px;
+/* Form */
+.ms_form-control {
+    border-radius: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+form .ms_btn {
+    background-color: var(--jumbotron-green);
 }
 
 /* * Tablet and desktop layout * */

@@ -160,7 +160,7 @@
                     <!-- End Row -->
                     <!-- Download button -->
                     <div class="button text-center">
-                        <a href="#" class="btn">
+                        <a href="#" class="btn ms_btn">
                             <i class="fa-solid fa-download"></i>
                             Download
                         </a>
@@ -175,12 +175,37 @@
         <section class="contact-me">
             <div class="ms_container">
                 <h5 class="text-center"><strong>CONTACT ME</strong></h5>
-                    <!-- Star -->
-                    <div class="star text-center">
-                        <div class="ms_border d-inline-block align-middle blue-border"></div>
-                        <span><i class="fa-solid fa-star"></i></span>
-                        <div class="ms_border d-inline-block align-middle blue-border"></div>
+                <!-- Star -->
+                <div class="star text-center">
+                    <div class="ms_border d-inline-block align-middle blue-border"></div>
+                    <span><i class="fa-solid fa-star"></i></span>
+                    <div class="ms_border d-inline-block align-middle blue-border"></div>
+                </div>
+                <!-- Form -->
+                <form action="">
+                    <!-- Name -->
+                    <div class="form-floating mb-2">
+                      <input type="text" class="form-control ms_form-control" id="floatingName" placeholder="Name">
+                      <label for="floatingName">Name</label>
                     </div>
+                    <!-- Email address -->
+                    <div class="form-floating mb-2">
+                        <input type="email" class="form-control ms_form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <!-- Phone number -->
+                    <div class="form-floating mb-2">
+                        <input type="text" class="form-control ms_form-control" id="floatingPhone" placeholder="Phone Number">
+                        <label for="floatingPhone">Phone Number</label>
+                    </div>
+                    <!-- Message -->
+                    <div class="form-floating mb-2">
+                        <textarea class="form-control ms_form-control" placeholder="Leave a message here" id="floatingTextarea" style="height: 150px"></textarea>
+                        <label for="floatingTextarea">Message</label>
+                    </div>
+                    <button type="submit" class="btn ms_btn">Send</button>                      
+                </form>
+                <!-- End Form -->
             </div>
         </section>
         <!-- End Contact me section -->
